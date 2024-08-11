@@ -1,0 +1,84 @@
+body{font-family:sans-serif;}
+
+
+.main {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    animation: fadein 1s;
+}
+
+.poi {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    width: 100%;
+}
+
+.card {
+    width: 250px;
+    height: 200px;
+    box-shadow: 0 29px 52px rgba(0, 0, 0, 0.4), 0 25px 16px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 10px;
+    animation: fadein 1s;
+    text-align: center;
+}
+
+.btn {
+    width: 250px;
+    height: 60px;
+    background-color: transparent;
+    border: 2px solid black;
+    color: black;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: sans-serif;
+    font-size: 20px;
+    animation: fadein 1s;
+    margin: 10px;
+}
+
+.btn:hover {
+    background-color: black;
+    color: white;
+}
+
+.btn-poi {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+@keyframes fadein {
+    0% {
+        opacity: 0;
+        transform: translateX(-5000px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.fa-solid, .fa-store {
+    font-size: 130px;
+}
+
+
+@media (min-width: 1000px) {
+    .title{margin-top:150px;}
+    .UInav{margin-left:50px;
+    font-size: 40px;
+    
+    }
+    .btn{width:500px;}
+    .card{width:500px;
+    height: 250px;
+    }
+    
+    
+}
